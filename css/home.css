@@ -1,0 +1,266 @@
+.navbar-brand h1{
+	color: white;
+	font-size: 1.5em;
+}
+.navbar-brand a:hover{
+	text-decoration: none;
+}
+#nav-list a{
+	text-align: center;
+	margin: 20px;
+	color: #fff;
+}
+#nav-list a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+}
+@media (min-width: 1200px){
+	
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+	.panel-footer section hr{
+		width:100%;
+		background-color: #fff;
+	}
+	.con .top-left{
+		font-size: 2.5em;
+	}
+	.con .content{
+		padding: 20px;
+	}
+	.con .box span{
+		font-size: 2em;
+		padding: 20px;
+	}
+}
+@media (max-width: 767px){
+	.panel-footer section{
+		text-align: center;
+	}
+	.panel-footer section hr{
+		width:50%;
+		background-color: #fff;
+	}
+	.con .top-left{
+		font-size: 2em;
+	}
+	.con .content{
+		padding: 0px;
+		margin: 0px;
+	}
+	.con .box{
+		padding: 13px;
+		margin: 10px;
+	}
+	.con .box span{
+		font-size: 1em;
+		padding: 0px;
+		margin: 0px;
+	}
+	.company-img{
+		margin: auto;
+	}
+	.navbar-brand{
+		font-size: 1.5em;
+	}
+}
+@media(max-width: 576px){
+	
+	.navbar-brand{
+		font-size: 1em;
+	}
+	.company>h2{
+		font-size: 1.1em;
+	}
+	.con .top-left{
+		font-size: 1em;
+	}
+	.con .content{
+		padding: 0px;
+		margin: 0px;
+	}
+	.con .box{
+		font-size: 0.5em;
+		padding: 10px;
+		margin: 0px;
+	}
+	/*.con .box span{
+		
+		padding: 0px;
+		margin: 0px;
+	}*/
+}
+.company{
+	margin-bottom: 50px;
+}
+.company h2{
+	text-align: center;
+	margin: 30px;
+	
+}
+.company span{
+	color: red;
+}
+.company-img{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: auto;
+	height: auto;
+	
+}
+.text{
+	max-width: 500px;
+	max-height: 300px;
+}
+.container h3{
+	margin: 30px;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.card{
+	margin: auto;
+	margin-top: 50px;
+}
+.card .card-img-top{
+	height: 150px;
+}
+.card:hover{
+	box-shadow: 0 0 20px #616161;
+}
+
+.panel-footer{
+	margin-top: 30px;
+	padding-top:35px;
+	padding-bottom: 30px;
+	background-color:black;//#222;
+	border-top:0;
+	color: #fff;
+}
+#copyright{
+	margin-top: 20px;
+}
+
+#address>span, #links>span, #project>span, #gallery>span{
+	color: white;//#0275d8;//cornflowerblue;
+	font-weight: bold;
+	font-size: 1.2em;
+	font-style: italic;
+}
+#links a{
+	text-decoration: none;
+	color: #BFBFBD;
+}
+#links a:hover{
+	color: #0275d8;//cadetblue;
+}
+#gallery img{
+	margin: 10px;
+}
+.footer{
+	margin-top: 20px;
+	font-weight: 500;
+	color: #BFBFBD;
+}
+.con{
+	position: relative; 
+  margin: 0 auto;
+}
+.con .content{
+	position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  max-width: 100%;
+  padding: 20px;
+}
+.box{
+	margin: auto;
+	padding: 30px;
+}
+.box span{
+	font-weight: bold;
+	font-size: 2.5em;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: ghostwhite;
+  font-weight: bold;
+  font-size: 3.5em;
+}
+.top-left span{
+	color: orangered;
+}
+
+
+/*.video-container{
+	margin: 40px;
+	width: 500px;
+	height: 700px;
+	position: relative;
+	z-index: 10;
+	background-color: black;
+}*/
+.video{
+	/*position: absolute;
+	top: 100px;*/
+	/*width: 100%;
+	height: 500px;
+	background-color: blanchedalmond;*/
+}
+
+
+/* http://preview.themeforest.net/item/impathy-nonprofit-donation-charity-html5-template/full_screen_preview/23199907?_ga=2.74343634.1364385170.1575177525-2051548188.1571733300&irgwc=1&clickid=yluz8i1IixyLWnEwUx0Mo3QjUkB13f1ROVGbTE0&iradid=275988&irpid=420717&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_420717&utm_medium=affiliate&utm_source=impact_radius */
+/* https://demo.themefisher.com/wishfund/ */
+
+/*
+	img {vertical-align: middle;}
+
+#slideshow-container {
+  max-width: 1400px;
+  max-height: 550px;
+  position: relative;
+  padding: 0px;
+  
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  background-color: white;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.prev{
+	left: 0px;
+	border-radius: 3px 0 0 3px;	
+}
+.next {
+  right: 0px;//130px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  text-decoration: none;
+}
+*/
