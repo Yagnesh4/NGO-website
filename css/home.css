@@ -1,9 +1,18 @@
+#logo img{
+	/*background-image: url("images/logo.png");
+	background-repeat: none;*/
+	width: 70px;
+	height: 70px;
+	margin:10px;
+	border-radius: 100px;
+}
 .navbar-brand h1{
 	color: white;
 	font-size: 1.5em;
 }
 .navbar-brand a:hover{
 	text-decoration: none;
+	color: black;
 }
 #nav-list a{
 	text-align: center;
@@ -17,13 +26,19 @@
 
 }
 @media (min-width: 1200px){
-	
+	.navbar-brand {
+		font-size: 1.7em;
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px){
-	
+	.navbar-brand {
+		font-size: 1.5em;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px){
-
+	.navbar-brand {
+		font-size: 1.5em;
+	}
 	.panel-footer section hr{
 		width:100%;
 		background-color: #fff;
@@ -67,11 +82,14 @@
 		margin: auto;
 	}
 	.navbar-brand{
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 }
 @media(max-width: 576px){
-	
+	#logo img{
+		width: 0px;
+		height: 0px;
+	}
 	.navbar-brand{
 		font-size: 1em;
 	}
@@ -95,6 +113,57 @@
 		padding: 0px;
 		margin: 0px;
 	}*/
+}
+@media(max-width: 396px){
+	#logo img{
+		width: 0px;
+		height: 0px;
+	}
+	.navbar-brand{
+		font-size: 1em;
+	}
+	.navbar-toggler{
+		margin-left: 2px;
+		padding: 0px;
+	}
+	.about-img img{
+		width: 300px;
+		height: 200px;
+		margin-left: 25px;
+	}
+	.modal-body img{
+		width: 100%;
+		height: 200px;
+	}
+}
+@media(max-width: 259px){
+	#logo img{
+		width: 0px;
+		height: 0px;
+	}
+	.navbar-brand{
+		font-size: 0.7em;
+	}
+	.navbar-toggler{
+		margin: 0px;
+		padding: 0px;
+	}
+	.review-container .flip-box{
+		width: 200px;
+		height: 200px;
+	}
+	.review-container .flip-box-front, .review-container .flip-box-back{
+		font-size: 1em;
+	}
+	.about-img img{
+		width: 200px;
+		height: 200px;
+		margin: 0px;
+	}
+	.modal-body img{
+		width: 100%;
+		height: 150px;
+	}
 }
 .company{
 	margin-bottom: 50px;
@@ -201,6 +270,14 @@
 }
 .top-left span{
 	color: orangered;
+}
+#gallery a:hover{
+	cursor: pointer;
+}
+#gallery .modal-title{
+	text-align: center;
+	color: black;
+	font-weight: bold;
 }
 
 
